@@ -1,0 +1,48 @@
+body{
+    background-color: #EDF1F6;
+    color: #363636;
+    height: 100vh;
+    margin-top: 0vh;
+    width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid transparent 10px;
+    padding: 5px;
+    margin: 0;
+}
+
+.apresentacao{
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 300px;
+}
+
+.apresentacao__carrossel{
+    display: flex;
+    margin-right: 40%;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+}
+
+header{
+    background-image: url(fundo-cabecalho2.png);
+    height: 100px;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+#logo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}

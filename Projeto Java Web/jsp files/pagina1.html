@@ -1,0 +1,23 @@
+<%@page import="aula6.com.meupacote.Retangulo"%>
+<%@ page import="aula6.com.meupacote.MinhaClasse"%>
+<%@ page import="aula6.com.meupacote.Usuario"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    </head>
+    <body>
+        <% 
+            Usuario usuario1 = new Usuario();
+            usuario1.setNome(request.getParameter("nome"));
+            usuario1.setEndereco(request.getParameter("endereco"));
+            usuario1.setTelefone(request.getParameter("telefone"));
+            usuario1.setCPF(request.getParameter("cpf"));
+            usuario1.setDataDeNascimento(request.getParameter("dataDeNascimento"));
+            out.print(usuario1.toString());
+        %>
+    </body>
+</html>

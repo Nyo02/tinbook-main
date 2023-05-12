@@ -1,0 +1,78 @@
+#logo{
+    position: absolute;
+    height: 100px;
+    margin-left: 50px;
+}
+header{
+    background-image: url(img/fundo-cabecalho2.png);
+    height: 100px;
+    margin-top: -10px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#art-pesquisa{
+    height: 160px;
+    width: 1000px;
+    position: absolute;
+    background-image: url(img/livro-pesquisa.png);
+    margin-top: 180px;
+    margin-left: 190px;
+    
+}
+#div-pesquisa{
+    height: 100px;
+    width: 970px;
+    position: absolute;
+    background-color: rgb(24, 139, 139);
+    border-radius: 20px;
+    margin-top: 340px;
+    margin-left: 190px;
+    opacity: 0.3;
+  
+}
+section{
+    position: relative;
+}
+#inp_pesquisa{
+    margin-top: 188px;
+    margin-left: 90px;
+    width: 700px;
+    height: 40px;
+}
+
+#btn-pesquisar{
+    position: absolute;
+    background:    #f5693e;
+    border-radius: 11px;
+    color:#ffffff;
+    margin-left: 20px;
+    margin-top: 185px;
+    width: 90px;
+    height: 50px;
+    
+}   
+body{
+    position: relative;
+    background-image: url(img/background-pagina.jpg);
+}
+
+h1{ 
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 230px;
+    
+    text-shadow: -1px -1px 0px rgb(0, 0, 0), 
+    -1px 1px 0px rgb(0, 0, 0),                    
+     1px -1px 0px rgb(0, 0, 0),                  
+     1px 0px 0px rgb(0, 0, 0);;
+}
+
+#img-leitora{
+    margin-top: 100px;
+    height: 990px;
+    width: 1500px;
+    float: left;
+}

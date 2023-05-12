@@ -1,0 +1,123 @@
+*{  /*reset*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background-image: url(img/background-pagina.jpg);
+    background-repeat: no-repeat;
+}
+
+header{
+    background-image: url(img/fundo-cabecalho2.png);
+    height: 100px;
+}
+
+#cabecalho{
+    position: relative;
+
+    
+}
+#logo{
+    position: absolute;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.texto{
+    color: blueviolet
+}
+
+.lbl_grid2{
+    margin-left: 135px;
+}
+article{
+    height: 700px;
+    float: right;
+    padding-right: 100px;
+    padding-top: 40px;
+    background-image: url(img/fundo-login.png);
+    background-position-y: 30px;
+    background-position-x: -400px;
+    background-repeat: no-repeat;
+    background-size: 1200px 500px;
+   
+    
+
+}
+#campos_cadastro{
+   margin-left: 20px;
+  
+}
+
+h1{ 
+    font-size: 23px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'verdana';
+}
+
+h2{
+    font-family: 'verdana';
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+#livros{
+    height: 600px;
+    width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background-image: url(img/livro.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-y: 150px;
+    background-position-x: 150px;
+    float: left;
+}
+
+#titulo_texto{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
+
+
+#link_usuario{
+    float: right;
+}
+
+footer{
+    background-image: url(img/fundo-footer.png);
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    margin-top: 700px;
+    
+    text-align: center;
+    
+    
+    
+}
+
+h4{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+#log_form{
+    margin-top: 20px;
+}
+
+#sub_logar{
+    width: 150px;
+    height: 80px;
+    float: right;
+    margin-top: -60px;
+    background-color: rgba(184, 177, 243, 0.452);
+    
+}
