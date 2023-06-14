@@ -1,0 +1,135 @@
+@charset "UTF-8";
+*{  /*reset*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background-image: url(img/background-pagina.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header{
+    background-image: url(img/fundo-cabecalho2.png);
+    height: 100px;
+}
+
+#cabecalho{
+    position: relative;
+
+    
+}
+#logo{
+    position: absolute;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.texto{
+    color: blueviolet
+}
+
+.lbl_grid2{
+    margin-left: 135px;
+}
+
+#campos_cadastro{
+   margin-left: 7vh;
+  
+}
+
+h1{ 
+    font-size: 23px;
+    padding-left: 7vh;
+    padding-top: 10px;
+    font-family: 'verdana';
+}
+
+h2{
+    font-family: 'verdana';
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+#livros{
+    height: 700px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background-color:#cbf3f0;
+    background-size: 100%;
+    float: left;
+}
+
+.vertical-menu a {
+    background-color: white; /* white background color */
+    color: #313131; /* text color */
+    padding: 10%; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu {
+    width: 200px; /* Set a width if you like */
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    list-style-type: none;
+    position: relative;
+}
+
+.apresentacao{
+    margin-left: 4%;
+    margin-top: 4%;
+
+}
+
+#titulo_texto{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
+
+
+#link_usuario{
+    float: right;
+}
+
+footer{
+    background-image: url(img/fundo-footer.png);
+    height: 25vh;
+    width: 100%;
+    position: absolute;
+    margin-top: 51%;
+    text-align: center;
+}
+
+h4{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+#log_form{
+    margin-top: 20px;
+}
+
+#sub_logar{
+    width: 150px;
+    height: 80px;
+    float: right;
+    margin-top: -60px;
+    background-color: rgba(184, 177, 243, 0.452);
+    
+}

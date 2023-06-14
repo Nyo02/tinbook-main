@@ -1,0 +1,96 @@
+@charset "UTF-8";
+*{  /*reset*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background-image: url(img/background-pagina.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header{
+    background-image: url(img/fundo-cabecalho2.png);
+    height: 100px;
+}
+
+#cabecalho{
+    position: relative;
+
+    
+}
+#logo{
+    position: absolute;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.texto{
+    color: blueviolet
+}
+
+.lbl_grid2{
+    margin-left: 135px;
+}
+
+h1{ 
+    font-size: 23px;
+    padding-left: 7vh;
+    padding-top: 10px;
+    font-family: 'verdana';
+}
+
+h2{
+    font-family: 'verdana';
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+#livros{
+    height: 600px;
+    width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background-image: url(img/livro.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-y: 150px;
+    background-position-x: 150px;
+    float: left;
+}
+
+#titulo_texto{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
+
+
+
+
+footer{
+    background-image: url(img/fundo-footer.png);
+    height: 25vh;
+    width: 100%;
+    position: absolute;
+    margin-top: 51%;
+    text-align: center;
+    
+}
+
+h4{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#sub_logar{
+    width: 150px;
+    height: 80px;
+    margin-top: 0px;
+    background-color: rgba(184, 177, 243, 0.452);
+    
+}

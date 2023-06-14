@@ -1,0 +1,46 @@
+/* normalize.css */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: #EDF1F6;
+    color: #262626;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* menu.css */
+  .vertical-menu {
+    width: 30%;
+    height: 100%;
+    margin-left: -50px;
+    margin-top: -50px;
+    padding: 0;
+  }
+  
+  .vertical-menu ul {
+    list-style-type: none;
+  }
+  
+  .vertical-menu a {
+    background-color: white;
+    color: #262626;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #ee376e;
+  }
+  
